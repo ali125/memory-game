@@ -9,7 +9,9 @@ type Props = {
 const Timer: React.FC<Props> = ({ time }) => {
   return (
     <View style={styles.container}>
-      <Text style={styles.timerText}>{time} seconds</Text>
+      <Text style={[styles.timerText, { color: time < 10 ? "red" : "black" }]}>
+        {time} seconds
+      </Text>
     </View>
   );
 };

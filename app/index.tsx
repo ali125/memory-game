@@ -1,5 +1,10 @@
 import React, { useEffect } from "react";
-import { View, StyleSheet, ActivityIndicator } from "react-native";
+import {
+  View,
+  StyleSheet,
+  ActivityIndicator,
+  SafeAreaView,
+} from "react-native";
 import Cards from "@/components/Cards";
 import Header from "@/components/Header";
 import { useGetCardsQuery } from "@/redux/apiSlice/boardApiSlice";
@@ -18,16 +23,20 @@ const Home = () => {
     }
   }, [data, board]);
 
-  return isLoading ? (
-    <View style={styles.container}>
-      <ActivityIndicator animating color={Colors.light.tint} size="large" />
-    </View>
-  ) : board ? (
-    <View style={styles.container}>
-      <Header />
-      <Cards />
-    </View>
-  ) : null;
+  return (
+    <SafeAreaView style={{ flex: 1 }}>
+      {isLoading ? (
+        <View style={styles.container}>
+          <ActivityIndicator animating color={Colors.light.tint} size="large" />
+        </View>
+      ) : board ? (
+        <View style={styles.container}>
+          <Header />
+          <Cards />
+        </View>
+      ) : null}
+    </SafeAreaView>
+  );
 };
 
 const styles = StyleSheet.create({
