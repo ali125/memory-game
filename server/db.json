@@ -1,0 +1,51 @@
+{
+  "cards": [
+    {
+      "id": 1,
+      "label": "2x3",
+      "duration": 30,
+      "data": [
+        { "id": 1, "icon": "truck", "key": "truck" },
+        { "id": 2, "icon": "camera", "key": "camera" },
+        { "id": 3, "icon": "money-bill", "key": "money" },
+        { "id": 4, "icon": "camera", "key": "camera" },
+        { "id": 5, "icon": "truck", "key": "truck" },
+        { "id": 6, "icon": "money-bill", "key": "money" }
+      ]
+    },
+    {
+      "id": 2,
+      "label": "4x2",
+      "duration": 45,
+      "data": [
+        { "id": 1, "icon": "truck", "key": "truck" },
+        { "id": 2, "icon": "camera", "key": "camera" },
+        { "id": 3, "icon": "money-bill", "key": "money" },
+        { "id": 4, "icon": "car", "key": "car" },
+        { "id": 5, "icon": "camera", "key": "camera" },
+        { "id": 6, "icon": "truck", "key": "truck" },
+        { "id": 7, "icon": "money-bill", "key": "money" },
+        { "id": 8, "icon": "car", "key": "car" }
+      ]
+    },
+    {
+      "id": 3,
+      "label": "3x4",
+      "duration": 60,
+      "data": [
+        { "id": 1, "icon": "truck", "key": "truck" },
+        { "id": 2, "icon": "camera", "key": "camera" },
+        { "id": 3, "icon": "money-bill", "key": "money" },
+        { "id": 4, "icon": "camera", "key": "camera" },
+        { "id": 5, "icon": "truck", "key": "truck" },
+        { "id": 6, "icon": "money-bill", "key": "money" },
+        { "id": 7, "icon": "car", "key": "car" },
+        { "id": 8, "icon": "basketball", "key": "basketball" },
+        { "id": 9, "icon": "football", "key": "football" },
+        { "id": 10, "icon": "basketball", "key": "basketball" },
+        { "id": 11, "icon": "car", "key": "car" },
+        { "id": 12, "icon": "football", "key": "football" }
+      ]
+    }
+  ]
+}
